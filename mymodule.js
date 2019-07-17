@@ -1,14 +1,3 @@
-/*
-  mymodule.js
-  Josh Stallings
-  5/7/2016
-
-  Does the work for modular-filtered-ext-list. 
-  Contains directory reading and filtering function
-  Provides any default arguments and the definition of the function, 
-  so that it can be called externally.
-*/
-
 var fs = require( 'fs');
 var path = require( 'path' );
 var newFilesArray = [];  
